@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: 0;
+    text-decoration: none;
+}
+
+/* .container{
+    
+} */
+header{
+    height: 80px;
+    background-color: #272829;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    padding: 10px;
+    
+}
+.logo img{
+    width: 70px;
+
+}
+.logo div{
+    color: #fff;
+    font-size: 60px;
+    
+}
+header .icons{
+    margin-right: 150px;
+}
+
+header .icons .fa-brands {
+   
+    margin-right: 15px;
+    font-size: 30px;
+    
+}
+header .icons .fa-solid {
+    font-size: 30px;
+}
+
+header .icons a i{
+   color: #fff;
+    
+    
+}
+
+.orange-header {
+    background-color: #f06730;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+    
+    
+}
+ .orange-header ul{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin-left: 74px;
+    margin-right: 110px;
+    left: 0;
+    right: 0;
+    justify-content: space-around;
+
+} 
+
+
+.orange-header a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600px;
+    justify-content: center;
+    
+
+}
+div ul a{
+    text-decoration: none;
+}
+
+section{
+
+    padding-top: 300px;
+}
+
+.boyut{
+
+    width: 500px;
+    justify-content: center;
+
+}
